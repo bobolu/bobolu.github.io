@@ -1,0 +1,63 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+body { font: 12px/1 Helvetica, "微软雅黑",Arial, Verdana, sans-serif; color:#333;}
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+a { color: #00c6d8; text-decoration: none; }
+
+html{background:#fff;}
+.header:after,
+.footer:after,
+.hd_box:after{
+    content:'.';
+    height:0;
+    visibility:hidden;
+    display:block;
+    overflow:hidden;
+    clear:both;
+}
+.header,
+.header{background-color:#fff;padding-bottom:20px;}
+.hd_box{width:480px;margin:0 auto;padding-top:12px;position:relative;*zoom:1;font-size:18px;line-height: 24px;color:#fff;}
+
+.event_data{position:absolute;top:0;right:68px;width:134px;height:85px;background: url(event_date.png) no-repeat; font-size:0;color: transparent;line-height:0;overflow: hidden;}
+
+.content_box{margin-top:-20px;}
+
+.layout {}
+.guest_box{width:960px;margin:0 auto;padding-top:45px;}
+.guest_list li {display:inline-block;*zoom:1;*display:inline;width:48%;vertical-align: top;margin:0 2% 30px 0;}
+.guest_list li .guest_img {width:140px;height:140px;float:left;margin-right:20px;}
+.guest_list li .guest_img img {width:120px;height:120px;border:10px solid #fff;border-radius:100px;box-shadow:0 1px 16px 4px #ccc;}
+.guest_list li h3 {font-size:20px;margin:30px 0 10px;color:#333;}
+.guest_list li .guest_info {color:#999;line-height:22px;font-size:14px;}
+
+.schedule_box{padding:45px 0 48px;min-height:648px;background:url(cbg.jpg) no-repeat scroll bottom center / cover #999;}
+.schedule_box table{width:570px;margin:0 auto;}
+.schedule_box table th,
+.schedule_box table td {padding:15px 0;text-align:center;font-size:18px;border-bottom:1px solid rgba(0,0,0,0.1);line-height:22px;}
+.schedule_box table th{background:rgba(134,134,133,0.2);color:#000;border-right:2px solid rgba(0,0,0,0.1);}
+.schedule_box table td{background:rgba(59,167,176,0.5);color:#fff;}
+.schedule_box table td b{font-size:14px;color:#000;}
+
+.sponsors_box{margin:0 auto;width:960px;height:1280px;background:url(pt.jpg) no-repeat scroll bottom center / cover #999;background-size:100% 100%;}
+
+.sponsors_list{margin-bottom:80px;text-align:center;}
+.sponsors_list li{display:inline-block;*display:inline;*zoom:1;margin-right:62px;vertical-align: bottom;}
+.footer { width:950px;margin:0 auto;padding:10px 0 70px; line-height:30px;*zoom:1;}
+.footer p { margin-bottom: 10px; color: #666; font-size: 14px; text-align: left;float:right;padding:0 10px;}
+.footer p.copyright{float:left;}
+.footer p span { margin: 0 8px; color: #ccc; }
+.footer p a { color: #00c6d8;}
